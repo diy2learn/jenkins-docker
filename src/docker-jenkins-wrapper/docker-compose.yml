@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  jenkins:
+    build: ./
+    image: myjenkins:2.232
+    container_name: jenkins_master
+    
